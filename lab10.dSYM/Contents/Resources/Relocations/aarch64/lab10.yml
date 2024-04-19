@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/smateus12/Documents/COP_repository/lab 10/lab10'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x0, symBinAddr: 0x100003950, symSize: 0xBC }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x0, symBinAddr: 0x100003950, symSize: 0xBC }
+  - { offsetInCU: 0xBA, offset: 0xBA, size: 0x8, addend: 0x0, symName: _numberOfOccurances, symObjAddr: 0xBC, symBinAddr: 0x100003A0C, symSize: 0xC4 }
+  - { offsetInCU: 0x10C, offset: 0x10C, size: 0x8, addend: 0x0, symName: _deallocateTrie, symObjAddr: 0x180, symBinAddr: 0x100003AD0, symSize: 0x90 }
+  - { offsetInCU: 0x150, offset: 0x150, size: 0x8, addend: 0x0, symName: _createTrie, symObjAddr: 0x210, symBinAddr: 0x100003B60, symSize: 0x70 }
+  - { offsetInCU: 0x194, offset: 0x194, size: 0x8, addend: 0x0, symName: _readDictionary, symObjAddr: 0x280, symBinAddr: 0x100003BD0, symSize: 0x104 }
+  - { offsetInCU: 0x1F4, offset: 0x1F4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x384, symBinAddr: 0x100003CD4, symSize: 0x1C8 }
+...
